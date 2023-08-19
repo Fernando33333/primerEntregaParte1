@@ -1,0 +1,63 @@
+.main-header {
+  display: flex;
+  flex-direction: row;
+  background-color: #f6aa1c;
+  justify-content: center;
+}
+
+.nav-bar {
+  background-color: #bc3908;
+  color: #f6aa1c;
+  position: absolute;
+
+  /*   order: 0; */
+
+  &__nav-list {
+    display: flex;
+    padding: 0.5em;
+    gap: 0.8em;
+  }
+
+  &__nav-item {
+    margin-left: 0.5em;
+  }
+}
+
+.search-bar {
+  background-color: #f6aa1c;
+  display: flex;
+  flex-direction: column;
+  /*   order: 2; */
+
+  &__logo-container {
+    padding: 1em;
+    width: 300px;
+    height: 150px;
+    background-image: url(/public/img/brucelleNaranja.png);
+    //background-image: url(/public/img/brucelleAmarillo.png);
+    // background-image: url(/public/img/bcoFdoAma.png);
+    // background-image: url(/public/img/BcoFdoNar.png);
+  }
+
+  &__form-container {
+    padding: 1em;
+  }
+
+  &__carrito-container {
+    background-color: #bc3908;
+    padding: 1em;
+  }
+
+  &__form-label {
+    background-color: black;
+  }
+
+  &__form-search {
+    width: 81%;
+  }
+}
+
+#menu {
+  background-color: #f6aa1c;
+  /*   order: 1; */
+}

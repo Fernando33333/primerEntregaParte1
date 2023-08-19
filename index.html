@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto Integrador - Culetta Fernando - Primera parte</title>
+  </head>
+
+  <body>
+    <header class="main-header">
+      <input type="checkbox" id="menu" />
+
+      <nav class="nav-bar">
+        <!-- nav-bar -->
+        <ul class="nav-bar__nav-list">
+          <li class="nav-bar__nav-item">
+            <a href="#" class="nav-bar__nav-link">Inicio</a>
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="./views/alta.html" class="nav-bar__nav-link">Alta</a>
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="./views/contacto.html" class="nav-bar__nav-link"
+              >Contacto</a
+            >
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="./views/nosotros.html" class="nav-bar__nav-link"
+              >Nosotros</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- nav-bar -->
+
+      <div class="search-bar">
+        <!-- search-bar -->
+        <div class="search-bar__logo-container"></div>
+        <form action="" class="search-bar__form-container">
+          <label for="busqueda" class="search-bar__form-label"></label>
+          <input type="search" class="search-bar__form-search" id="busqueda" />
+          <input type="submit" value="Buscar" class="search-bar__form-submit" />
+        </form>
+        <div class="search-bar__carrito-container">C</div>
+        <div class="menu-toggle">
+          <label for="menu" class="menu-toggle__label">
+            <span class="menu-toggle__top-bread"></span>
+            <span class="menu-toggle__meat"></span>
+            <span class="menu-toggle__bottom-bread"></span>
+          </label>
+        </div>
+      </div>
+      <!-- search-bar -->
+    </header>
+
+    <main>
+      <section class="section-cards">
+        <header class="section-cards__header">
+          <h1>Autos clásicos disponibles</h1>
+          <p>Seleccione su modelo favorito</p>
+        </header>
+
+        <div class="cards-container">
+          <a class="card" href="#">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="./public/img/camaro72.jpg"
+                  alt="Camaro año 72"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">Camaro '72</h2>
+                <div class="card__description">
+                  <p>
+                    Clásico americano del año 1972 en excelente estado de
+                    conservación, con todos sus accesorios originales.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+          <!-- .card -->
+          <a class="card" href="#">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="./public/img/chevetteSS.jpg"
+                  alt="ChevetteSS"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">Chevette SS</h2>
+                <div class="card__description">
+                  <p>
+                    Impecable Chevette SS con sus partes completamente
+                    originales, listo para salir a la calle. Cuenta con garantía
+                    frente a cualquier eventualidad.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+          <!-- .card -->
+          <a class="card" href="#">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="./public/img/ferrariDescNueva.jpg"
+                  alt="Ferrari descapotable"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">Ferrari descapotable</h2>
+                <div class="card__description">
+                  <p>
+                    Ferrari única en su especie, restaurada a nueva con la
+                    totalidad de sus elementos traídos del país de origen.
+                    Consultar valor.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+          <!-- .card -->
+          <a class="card" href="#">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="./public/img/ferrariLino.jpg"
+                  alt="Ferrari lino"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">Ferrari Lino</h2>
+                <div class="card__description">
+                  <p>
+                    Les traemos este vehículo de edición limitada, del cual se
+                    han generado solamente tres unidades. Solo una se encuentra
+                    en nuestro suelo y está en perfectas condiciones.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+          <!-- .card -->
+          <a class="card" href="#">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="./public/img/FordMustang.jpg"
+                  alt="Ford Mustang"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">Ford Mustang</h2>
+                <div class="card__description">
+                  <p>
+                    Los músculo americano, estan perfectamente representados por
+                    el gran Ford Mustang, una máquina de pura potencia que te
+                    ofrecemos en nuestro amplio stock de clásicos.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+          <!-- .card -->
+          <a class="card" href="#">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="./public/img/generalMotorss.jpg"
+                  alt="General Motors"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">General Motors</h2>
+                <div class="card__description">
+                  <p>
+                    Entre los primeros ejemplares en la época moderna de la
+                    reconocida compañia americana, te traemos este modelo de
+                    gran potencia con un práctico diseño de interior y exterior.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+          <!-- .card -->
+
+          <a class="card" href="#">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="./public/img/generalMotorsNegro.jpg"
+                  alt="General Motors tono oscuro"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">General motors en tono negro.</h2>
+                <div class="card__description">
+                  <p>
+                    Entre los primeros ejemplares de la reconocida compañia
+                    americana, te traemos este modelo de gran potencia con un
+                    práctico diseño de interior y exterior, en tono oscuro.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+          <!-- .card -->
+
+          <a class="card" href="#">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="./public/img/MercedesBenz.jpg"
+                  alt="Mercedes Benz"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">Mercedes Benz</h2>
+                <div class="card__description">
+                  <p>
+                    Te acercamos este reconocido modelo de la empresa alemana.
+                    Un ejemplar clase E, con toda la genialidad de la ingeniería
+                    moderna, plasmado en un auto de mas de 40 años.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+          <!-- .card -->
+
+          <a class="card" href="#">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="./public/img/nissanDeportivo.jpg"
+                  alt="Notebook Lenovo"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">Nissan deportivo</h2>
+                <div class="card__description">
+                  <p>
+                    En este apartado, podemos ver un deportivo de diseño
+                    agresivo y gran aerodinamia plasmado de excelente manera por
+                    la compañia nipona.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+          <!-- .card -->
+
+          <a class="card" href="#">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="./public/img/shelbyCobra.jpg"
+                  alt="Drone DJI"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">Porsche 911</h2>
+                <div class="card__description">
+                  <p>
+                    Nuevamente la ingeniería alemana y el agresivo diseño de
+                    este Porsche, nos remonta a un clásico de la compañia nacida
+                    en Stuttgart. Ideal para que disfrutes en las rutas.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+          <!-- .card -->
+
+          <a class="card" href="#">
+            <article class="card__article">
+              <div class="card__image-container">
+                <img
+                  class="card__image"
+                  src="./public/img/TVRDeportivo.jpg"
+                  alt="Chromecast Google"
+                />
+              </div>
+              <div class="card__content">
+                <h2 class="card__heading">TVR coupe</h2>
+                <div class="card__description">
+                  <p>
+                    Coupe de primera linea, en varias gamas de colores. De
+                    excelente aspecto y grado de conservación, este ejemplar es
+                    un símbolo de potencia y fiabilidad.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+          <!-- .card -->
+        </div>
+        <!-- .cards-container -->
+      </section>
+      <!-- .section-cards -->
+    </main>
+    <!-- main -->
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
